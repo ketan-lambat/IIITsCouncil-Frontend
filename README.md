@@ -1,1 +1,1 @@
-# IIITsCouncil-Frontend
+# IIITs-Council-Frontend
