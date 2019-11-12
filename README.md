@@ -1,8 +1,10 @@
 # IIITs-Council-Frontend
 
 ### PR Guidelines
-Commit messages:-
-* should be clear and understandable
+Commit should have:-
+* should be clear and understandable message
 * should have screenshots of mobile, tablet and desktop view
 * should contain screenshot of **Lighthouse** audit report
+* should contain compressed images in assets
+* code should tested on Chrome Beta, Mozilla, Edge and Safari web browsers
 
