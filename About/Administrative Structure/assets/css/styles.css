@@ -1,0 +1,80 @@
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  display: block;
+}
+
+.side.a:hover {
+  color: #0056b3;
+  text-decoration: none;
+  background-color: white;
+}
+
+.side.a:hover {
+  background-color: white;
+  border-left: 2px solid;
+}
+
+.side {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .side {
+    display: none;
+  }
+}
+
+#active {
+  color: black;
+  background-color: rgb(221,221,221);
+  border-left: 5px solid rgb(25,0,86);
+  text-decoration: none;
+}
+
+#iiitact {
+}
+
+.block:hover {
+  background-color: rgb(221,221,221);
+}
+
+.block a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.col-sm-2.col-xs-2.col-md-2.col-lg-2.col-xl-2 {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.block {
+  margin: 0;
+  padding: 10px;
+}
+
+.col-sm-10 h3 {
+  font-weight: 150;
+}
+
+.underline {
+  border-top: 3px solid;
+  width: 4%;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.h2, h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.affix {
+  top: 20px;
+  z-index: 9999 !important;
+}
+
