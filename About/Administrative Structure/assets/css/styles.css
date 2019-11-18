@@ -5,6 +5,16 @@ a {
   display: block;
 }
 
+.heading:after{
+	content:' ';
+    width:30px;
+    display:block;
+    border:2px solid #000;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+}
+
 .side.a:hover {
   color: #0056b3;
   text-decoration: none;
