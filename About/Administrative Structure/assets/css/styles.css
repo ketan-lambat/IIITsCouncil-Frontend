@@ -1,3 +1,4 @@
+/*Global styles*/
 a {
   color: black;
   text-decoration: none;
@@ -5,28 +6,28 @@ a {
   display: block;
 }
 
-.heading:after{
-	content:' ';
-    width:30px;
-    display:block;
-    border:2px solid #000;
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
+h2 {
+  font-weight: 600;
 }
 
-.side.a:hover {
+/*For the section navbar and content*/
+.container-fluid {
+  width: 100%;
+  font-weight: 500;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*For side nav bar*/
+.side a:hover {
   color: #0056b3;
   text-decoration: none;
-  background-color: white;
-}
-
-.side.a:hover {
-  background-color: white;
-  border-left: 2px solid;
 }
 
 .side {
+  font-weight: 600;
   margin: 0;
 }
 
@@ -36,6 +37,7 @@ a {
   }
 }
 
+/*For active item in side bar*/
 #active {
   color: black;
   background-color: rgb(221,221,221);
@@ -43,7 +45,11 @@ a {
   text-decoration: none;
 }
 
-#iiitact {
+/*To navigate to particular page*/
+.block {
+  margin: 0;
+  text-align: left;
+  padding: 10px;
 }
 
 .block:hover {
@@ -55,21 +61,34 @@ a {
   color: black;
 }
 
+/*For side nav bar section*/
 .col-sm-2.col-xs-2.col-md-2.col-lg-2.col-xl-2 {
-  background-color: white;
+  background-color: #f2f3f4;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.block {
-  margin: 0;
-  padding: 10px;
+/*Content for the page*/
+.col-sm-10 h3 {
+  font-weight: 300;
+}
+.col-sm-10 h5 {
+  font-weight: 600;
 }
 
-.col-sm-10 h3 {
-  font-weight: 150;
+@media(min-width: 768px){
+  .col-sm-10{
+    font-size: 1.1rem;
+  }
 }
+
+@media(max-width: 768px){
+  .col-sm-10{
+    font-size: 1rem;
+  }
+}
+
 
 .underline {
   border-top: 3px solid;
@@ -78,13 +97,9 @@ a {
   margin-bottom: 5px;
 }
 
-.h2, h2 {
+.h2 {
   font-size: 2rem;
   margin-top: 10px;
 }
 
-.affix {
-  top: 20px;
-  z-index: 9999 !important;
-}
 
